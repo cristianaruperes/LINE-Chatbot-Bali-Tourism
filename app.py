@@ -74,7 +74,7 @@ def handle_message(event):
 
     msg = translate_text(event.message.text, 'en')#輸入的句子轉英文
     ans=ask(msg)#輸出英文
-    ans = translate_text(ans, 'zh-tw')#輸出轉成中文``
+    ans = translate_text(ans, 'en')#輸出轉成中文``
     message = TextSendMessage(text=ans)
     line_bot_api.reply_message(event.reply_token, message)
 
