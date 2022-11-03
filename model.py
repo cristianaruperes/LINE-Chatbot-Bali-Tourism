@@ -3,7 +3,7 @@ from linebot.exceptions import (InvalidSignatureError)
 from linebot.models import *
 def ask(q):
     import openai
-    openai.api_key = "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"
+    openai.api_key = "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"
                    
     response = openai.Completion.create(
     model="text-curie-001",
