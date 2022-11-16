@@ -6,7 +6,7 @@ def ask(q):
     openai.api_key = "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"
                    
     response = openai.Completion.create(
-    model="davinci:ft-personal-2022-11-16-08-38-24",
+    model="davinci",
     prompt=q,
     temperature=0.7,
     max_tokens=256,
