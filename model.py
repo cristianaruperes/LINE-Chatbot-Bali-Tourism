@@ -6,7 +6,7 @@ def ask(q):
     openai.api_key = "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"
                    
     response = openai.Completion.create(
-    model="davinci",
+    model="text-curie-001",
     prompt=q,
     temperature=0.7,
     max_tokens=256,
