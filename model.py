@@ -14,7 +14,7 @@ def ask(q):
       top_p=1,
       frequency_penalty=0,
       presence_penalty=0.6,
-      stop=["\\n", "END"]
+      stop=["\n", "END"]
 )                     
     story = response['choices'][0]['text'] 
     return story
