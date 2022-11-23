@@ -4,7 +4,7 @@ from linebot.models import *
 
 def ask(q):
     import openai
-    openai.api_key = "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"
+    openai.api_key = "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"
 
     response = openai.Completion.create(
       model="davinci:ft-personal-2022-11-16-23-13-01",
