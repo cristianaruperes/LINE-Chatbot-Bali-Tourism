@@ -4,7 +4,7 @@ from linebot.models import *
 
 def ask(q):
     import openai
-    openai.api_key = "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"
+    openai.api_key = "" #secret
 
     response = openai.Completion.create(
       # model="davinci:ft-yuan-ze-university-2023-04-12-07-35-10",
